@@ -1,0 +1,27 @@
+// ==========================================================================
+// Global Config
+// ==========================================================================
+
+// Fonts
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+$font-family--body : 'Montserrat', sans-serif;
+
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+$font-family--header : 'Lato', sans-serif;
+
+// Colors
+
+$background-color--primary : #29303a;
+$background-color--secondary : #ecf0f1;
+$color--highlight : #83c500;
+$color--dark-highlight : #78b400;
+$color--darkgray : #333;
+
+// Utility Classes
+
+.clearfix::after {
+  display: block;
+  content: " ";
+  clear: both;
+}

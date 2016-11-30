@@ -81,7 +81,6 @@ nav button span {
 }
 
 .inner {
-  margin-top: 6rem;
   color: #fff;
 }
 
@@ -130,8 +129,6 @@ nav button span {
 footer {
   text-align: center;
   font-size: 0;
-  
-  margin-top: 3.6rem;
 }
 
 footer a {

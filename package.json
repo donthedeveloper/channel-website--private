@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/donthedeveloper/channel-website.git"
+    "url": "git@github.com:donthedeveloper/channel-website.git"
   },
   "author": "Don Hansen",
   "license": "ISC",
@@ -19,5 +19,9 @@
   "dependencies": {
     "express": "^4.14.0",
     "jade": "^1.11.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.2"
   }
 }
