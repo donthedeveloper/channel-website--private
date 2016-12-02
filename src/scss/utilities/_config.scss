@@ -4,24 +4,40 @@
 
 // Fonts
 
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
-$font-family--body : 'Montserrat', sans-serif;
+@import url('https://fonts.googleapis.com/css?family=Passion+One');
+$font-family--passion : 'Passion One', cursive;
 
-@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
-$font-family--header : 'Lato', sans-serif;
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+$font-family--montserrat : 'Montserrat', sans-serif;
 
 // Colors
 
-$background-color--primary : #29303a;
+$background-color--gray : #2e2e2e;
 $background-color--secondary : #ecf0f1;
 $color--highlight : #83c500;
 $color--dark-highlight : #78b400;
 $color--darkgray : #333;
 
 // Utility Classes
-
 .clearfix::after {
   display: block;
   content: " ";
   clear: both;
 }
+
+.sr-only {
+  display: none;
+}
+
+/* FUNCTIONS */
+@keyframes opacity-change {
+  0%, 100% {
+    border-left: 2px solid rgba(169, 146, 212, 0);
+    border-right: 2px solid rgba(169, 146, 212, 0);
+  }
+  50% {
+    border-left: 2px solid rgba(169, 146, 212, 1);
+    border-right: 2px solid rgba(169, 146, 212, 1);
+  }
+}
+

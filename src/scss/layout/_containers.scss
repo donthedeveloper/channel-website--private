@@ -1,0 +1,68 @@
+.container {
+  height: 100%;
+  width: 100%;
+  
+  height: 100vh;
+  width: 100vw;
+  
+  display: flex;
+  flex-direction: column;
+}
+
+.container_content {
+  display: flex;
+  flex: 2;
+  
+  align-items: center;
+  justify-content: center;
+  
+  padding: 0 2rem;
+}
+
+.inner {
+  color: #fff;
+  
+  p {
+    text-align: center;
+    
+    &:first-of-type {
+      font-family: $font-family--passion;
+      font-size: 40px;
+      line-height: 40px;
+
+      margin: 0 auto;
+    }
+    
+    &:nth-of-type(2) {
+      font-family: $font-family--montserrat;
+      text-transform: uppercase;
+      font-size: 13px;
+      font-size: 100;
+      letter-spacing: 1px;
+
+      margin: 0 auto;
+      
+      span {
+        color: #a992d4;
+      }
+    }
+    
+    &:nth-of-type(3) {
+      /*   #a992d4  */
+      border-left: 2px solid rgba(169, 146, 212, 1);
+      border-right: 2px solid rgba(169, 146, 212, 1);
+
+      margin: 3rem 0 0;
+      padding: 0 1rem;
+
+      font-family: 'Montserrat', sans-serif;
+      line-height: 1.5rem;
+
+      animation-name: opacity-change;
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
+    }
+  }
+}
+
+
