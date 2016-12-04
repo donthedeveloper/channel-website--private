@@ -66,38 +66,63 @@ header {
       }
     }
   }
+}
   
 footer {
   text-align: center;
   font-size: 0;
   
   a {
-    width: 50%;
+    width: 80%;
     display: inline-block;
     font-size: 16px;
+/*     line-height: 20px;
+    vertical-align: middle; */
+    
+    padding: .7rem 0;
 
     color: #fff;
     text-decoration: none;
+    font-family: $font-family--montserrat;
+    font-weight: 700;
+    
+    margin-bottom: 16px;
+    
+    border-radius: 1px;
+    
+    span {
+      display: inline-block;
+      line-height: 20px;
+      vertical-align: middle;
+      
+      &:before {
+        content: " ";
+        display: block;
+        
+        width: 20px;
+        height: 20px;
+        float: left;
+        margin: 0 12px 0 0;
+      }
+    }
     
     &.twitch {
-      height: 120px;
-      width: 100px;
       background-color: #6441A4;
+      
+      span:before {
+        background-image: url("../img/twitch-icon.png");
+        background-size: 20px;
+      }
     }
     
     &.discord {
-      height: 100px;
-      width: 100px;
       background-color: #7289DA;
+      
+      span:before {
+        background-image: url("../img/discord-icon.png");
+        background-size: 23px;
+      }
     }
-  }
-}
-
-  
-  :after {
-    display: block;
-    content: " ";
-    clear: both;    
   }
 }
 

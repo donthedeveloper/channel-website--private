@@ -80,27 +80,44 @@ header {
         border-radius: 1px;
         display: block;
         margin: 3px 0; }
-  header footer {
-    text-align: center;
-    font-size: 0; }
-    header footer a {
-      width: 50%;
+
+footer {
+  text-align: center;
+  font-size: 0; }
+  footer a {
+    width: 80%;
+    display: inline-block;
+    font-size: 16px;
+    /*     line-height: 20px;
+    vertical-align: middle; */
+    padding: .7rem 0;
+    color: #fff;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    margin-bottom: 16px;
+    border-radius: 1px; }
+    footer a span {
       display: inline-block;
-      font-size: 16px;
-      color: #fff;
-      text-decoration: none; }
-      header footer a.twitch {
-        height: 120px;
-        width: 100px;
-        background-color: #6441A4; }
-      header footer a.discord {
-        height: 100px;
-        width: 100px;
-        background-color: #7289DA; }
-  header :after {
-    display: block;
-    content: " ";
-    clear: both; }
+      line-height: 20px;
+      vertical-align: middle; }
+      footer a span:before {
+        content: " ";
+        display: block;
+        width: 20px;
+        height: 20px;
+        float: left;
+        margin: 0 12px 0 0; }
+    footer a.twitch {
+      background-color: #6441A4; }
+      footer a.twitch span:before {
+        background-image: url("../img/twitch-icon.png");
+        background-size: 20px; }
+    footer a.discord {
+      background-color: #7289DA; }
+      footer a.discord span:before {
+        background-image: url("../img/discord-icon.png");
+        background-size: 23px; }
 
 .container {
   height: 100%;

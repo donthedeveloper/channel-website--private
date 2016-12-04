@@ -6,6 +6,9 @@ gulp.task("default", ["watch"]);
 gulp.task("build-css", function() {
   return gulp.src("src/scss/application.scss")
     .pipe(sass())
+//     .on("error", function(error) {
+//       console.log(error.message);
+//     })
     .pipe(gulp.dest("src/public/css"));
 });
 
