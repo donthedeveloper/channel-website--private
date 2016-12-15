@@ -9,7 +9,7 @@ app.use("/static", express.static(path.join(__dirname, "public")));
 app.set("view engine", "jade");
 app.set("views", path.join(__dirname, "/views"));
 
-app.get("/twitch/channel-website/src/app/", function(request, response) {
+app.get("/tinkering/channel-website/src/app/", function(request, response) {
   response.render("index");
 });
 
